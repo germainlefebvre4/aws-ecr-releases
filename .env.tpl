@@ -1,0 +1,11 @@
+# Environment variable
+FLASK_ENV=${FLASK_ENV:-production}
+
+# Technical variables
+AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID}
+AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}
+AWS_REGION_NAME=${AWS_REGION_NAME}
+
+# Applicaitve variables
+RELEASES_MAX=${RELEASES_MAX}
+DEBUG_MODE=${DEBUG_MODE}
